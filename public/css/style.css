@@ -1,0 +1,177 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Merriweather", serif;
+}
+
+h5 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+h6 {
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  color: #666;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.text-light {
+  color: #666;
+}
+
+.button {
+  background-color: #333;
+}
+
+.button:hover {
+  background-color: #111;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #111;
+}
+.danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.description {
+  font-size: 8px;
+}
+.error {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.error a {
+  color: rgb(40, 79, 170);
+  text-decoration: underline;
+}
+.image {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: solid 4px #fefefe;
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  line-height: 0;
+}
+.lost {
+  max-width: 50%;
+}
+.portfolio-me {
+  padding: 20px;
+  background: #000000;
+  color: rgb(0, 255, 255);
+  box-shadow: none !important;
+}
+.portfolio-me .logo {
+  max-width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-me p {
+  font-size: 14px;
+  color: #999;
+}
+
+.portfolio-me a {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: rgb(25, 180, 180);
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.portfolio-me a:hover {
+  color: #999;
+}
+
+.portfolio-breadcrumb {
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.portfolio-breadcrumb a {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+.portfolio-intro {
+  margin: 0;
+  padding: 40px 50px 30px;
+}
+
+.portfolio-intro p {
+  border-bottom: 1px solid #5c5c5c;
+  padding-bottom: 40px;
+}
+
+.portfolio-index {
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.portfolio-index .thumbnail {
+  margin-bottom: 5px;
+}
+
+.portfolio-index a {
+  color: #222;
+}
+
+.portfolio-index .cell {
+  margin-bottom: 15px;
+}
+
+.portfolio-index .cell h5 {
+  letter-spacing: 1px;
+}
+
+.portfolio-meta {
+  padding-left: 20px;
+}
+
+.portfolio-meta .button {
+  margin-bottom: 5px;
+}
+
+.portfolio-project p {
+  border: none;
+}
+
+.portfolio-project li {
+  font-size: 13px;
+  color: #444;
+}
+
+.portfolio-bio {
+  line-height: 25px;
+}

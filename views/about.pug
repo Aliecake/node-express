@@ -1,0 +1,54 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 Lauren Eggers
+
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | » Full Stack JavaScript Developer » Sphynx cat mom » Dance Dance Revolution Champion
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p
+            | I spent almost a decade working in customer service and I love communicating with others to acknowledge and address their needs.
+            | As my career interests changed, I found a passion for software engineering and that lead me to enroll in several courses.
+            | As a career changer, I'm excited to bring my unique skill set, including excellent customer service, to the development field.
+            | I hope one day to be a mentor to other young women interested in programming. 
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          li JavaScript
+          li Express
+          li NoSQL : MongoDB
+          li Node.js
+          li Vue 
+          li Webpack
+          li Sass, CSS
+          li RESTful API, AJAX
+          li Pug, EJS
+          li HTML
+          li Git
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          li 617-957-8233
+          li benzeggers@icloud.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='') LinkedIn
+        a.button.expanded(href='https://github.com/Aliecake') GitHub
+        a.button.expanded(href='https://www.laureneggers.com/') More Projects
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

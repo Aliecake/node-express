@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "project_name": "Random Quote Generator",
+      "description": "Provides essential random quotes from Violet Crawlery the Dowager Countess of Grantham",
+      "technologies": ["JavaScript", "CSS"],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": [
+        "/static/images/projects/0/randomqu-550x350.png",
+        "/static/images/projects/0/randomqu.png"
+      ]
+    },
+    {
+      "id": "1",
+      "project_name": "Student Listing",
+      "description": "Student listing with search. Page numbers dynamically added.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "http://www.laureneggers.com/paginationTT/",
+      "github_link": "https://github.com/Aliecake/paginationTT",
+      "image_urls": [
+        "/static/images/projects/1/pagination-550x350.png",
+        "/static/images/projects/1/pagination.png"
+      ]
+    },
+    {
+      "id": "2",
+      "project_name": "JS Conference Form",
+      "description": "An interactive form using jQuery with error handling. Works when JS is disabled",
+      "technologies": ["jQuery", "HTML", "CSS"],
+      "live_link": "http://www.laureneggers.com/interactive-form-TT/",
+      "github_link": "https://github.com/Aliecake/interactive-form-TT",
+      "image_urls": [
+        "/static/images/projects/2/interactiveform-550x350.png",
+        "/static/images/projects/2/interactiveform.png"
+      ]
+    },
+    {
+      "id": "3",
+      "project_name": "Pokemon Phrase Hunter",
+      "description": "Guess the phrase! All Pokemon related phrases. JavaScript OOP project",
+      "technologies": ["JavaScript", "CSS", "HTML"],
+      "live_link": "http://www.laureneggers.com/OOP-Game-TT/",
+      "github_link": "https://github.com/Aliecake/OOP-Game-TT",
+      "image_urls": [
+        "/static/images/projects/3/phrasehunt-550x350.png",
+        "/static/images/projects/3/phrasehunt.png"
+      ]
+    },
+    {
+      "id": "4",
+      "project_name": "API Requests",
+      "description": "Searchable employee info pulled from random user API",
+      "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
+      "live_link": "",
+      "github_link": "https://github.com/Aliecake/Public-API-requests-TT",
+      "image_urls": [
+        "/static/images/projects/4/apireq-550x350.png",
+        "/static/images/projects/4/apireq.png"
+      ]
+    },
+    {
+      "id": "5",
+      "project_name": "",
+      "description": "",
+      "technologies": [],
+      "live_link": "",
+      "github_link": "",
+      "image_urls": []
+    }
+  ]
+}
