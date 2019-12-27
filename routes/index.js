@@ -6,7 +6,6 @@ const router = express.Router();
 //* * HOME ROUTE */
 
 router.get(`/`, (req, res) => {
-	console.log(projects);
 	res.render(`index`, {
 		projects,
 	});
