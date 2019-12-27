@@ -3,23 +3,29 @@ const { projects } = require('../data.json');
 
 const router = express.Router();
 
+//* * HOME ROUTE */
+
 router.get(`/`, (req, res) => {
-	console.log(projects)
+	console.log(projects);
 	res.render(`index`, {
-		projects
+		projects,
 	});
 });
+
+//* * ABOUT ROUTE */
 
 router.get(`/about`, (req, res) => {
 	res.render(`about`);
 });
 
+//* * PROJECT ROUTE */
+
 router.get(`/project/:id`, (req, res) => {
-	const id = req.params.id;
-	const project = projects[id]
+	const { id } = req.params;
+	const project = projects[id];
 
 	res.render(`project`, {
-		project
+		project,
 	});
 });
 

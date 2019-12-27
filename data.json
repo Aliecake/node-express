@@ -8,8 +8,10 @@
       "live_link": "",
       "github_link": "",
       "image_urls": [
+        "/static/images/projects/0/randomqu.png",
         "/static/images/projects/0/randomqu-550x350.png",
-        "/static/images/projects/0/randomqu.png"
+        "/static/images/projects/0/randcode.png",
+        "/static/images/projects/0/randomqu1.png"
       ]
     },
     {
@@ -20,8 +22,10 @@
       "live_link": "http://www.laureneggers.com/paginationTT/",
       "github_link": "https://github.com/Aliecake/paginationTT",
       "image_urls": [
+        "/static/images/projects/1/pagination.png",
         "/static/images/projects/1/pagination-550x350.png",
-        "/static/images/projects/1/pagination.png"
+        "/static/images/projects/1/pagcode.png",
+        "/static/images/projects/1/pagination1.png"
       ]
     },
     {
@@ -32,8 +36,10 @@
       "live_link": "http://www.laureneggers.com/interactive-form-TT/",
       "github_link": "https://github.com/Aliecake/interactive-form-TT",
       "image_urls": [
+        "/static/images/projects/2/interactiveform.png",
         "/static/images/projects/2/interactiveform-550x350.png",
-        "/static/images/projects/2/interactiveform.png"
+        "/static/images/projects/2/formcode.png",
+        "/static/images/projects/2/formcode2.png"
       ]
     },
     {
@@ -44,8 +50,10 @@
       "live_link": "http://www.laureneggers.com/OOP-Game-TT/",
       "github_link": "https://github.com/Aliecake/OOP-Game-TT",
       "image_urls": [
+        "/static/images/projects/3/phrasehunt.png",
         "/static/images/projects/3/phrasehunt-550x350.png",
-        "/static/images/projects/3/phrasehunt.png"
+        "/static/images/projects/3/phrasecode.png",
+        "/static/images/projects/3/phrasehunt1.png"
       ]
     },
     {
@@ -56,18 +64,29 @@
       "live_link": "",
       "github_link": "https://github.com/Aliecake/Public-API-requests-TT",
       "image_urls": [
+        "/static/images/projects/4/apireq.png",
         "/static/images/projects/4/apireq-550x350.png",
-        "/static/images/projects/4/apireq.png"
+        "/static/images/projects/4/apicode.png",
+        "/static/images/projects/4/apireq1.png"
       ]
     },
     {
       "id": "5",
-      "project_name": "",
-      "description": "",
-      "technologies": [],
-      "live_link": "",
+      "project_name": "USCIS Study Flash Cards",
+      "description": "Study for the USCIS Exam",
+      "technologies": ["JavaScript", "Vue", "CSS", "HTML"],
+      "live_link": "https://master-uscis-exam.herokuapp.com/",
       "github_link": "",
-      "image_urls": []
+      "image_urls": ["/static/images/projects/5/uscis.gif"]
+    },
+    {
+      "id": "6",
+      "project_name": "YelpCamp",
+      "description": "CRUD app to search for camps",
+      "technologies": ["JavaScript", "MongoDB", "Node.js", "Sass", "HTML"],
+      "live_link": "https://secure-savannah-48748.herokuapp.com/",
+      "github_link": "https://github.com/Aliecake/YelpCamp",
+      "image_urls": ["/static/images/projects/6/yelpcamp.gif"]
     }
   ]
 }
