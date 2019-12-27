@@ -2,11 +2,14 @@ extends layout.pug
 block content
     .error
         if message
+            //- error.status & error.message
+            //- error.stack will console
             h1.danger #{message}
-        
+
         a(href="/") Return Home
         br
+        //-different images for different errors
         if err.status === 404
             img.lost(src='/static/images/lost.png')
         else
-            img(src='/static/images/lost.png')
+            img(src='/static/images/err.jpg')

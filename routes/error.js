@@ -20,7 +20,7 @@ router.use((err, req, res, next) => {
 	res.locals.err = err;
 	res.status(err.status);
 	console.error(err.stack);
-	req.flash('err', `${err.status} There was an error`);
+	req.flash('err', `${err.status} ${err.message}`);
 	res.render(`error`, { message: req.flash('err') });
 });
 

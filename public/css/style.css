@@ -78,6 +78,9 @@ a:hover {
 .lost {
   max-width: 50%;
 }
+.name {
+  text-transform: uppercase;
+}
 .portfolio-me {
   padding: 20px;
   background: #000000;
