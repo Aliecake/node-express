@@ -23,9 +23,19 @@ router.get(`/project/:id`, (req, res) => {
 	const { id } = req.params;
 	const project = projects[id];
 
-	res.render(`project`, {
-		project,
-	});
+	if (id >= projects.length) {
+		res.render('error', {
+			err: {
+				status: `404`,
+				message: `Project doesn't exist`,
+				stack: `None`,
+			},
+		});
+	} else {
+		res.render(`project`, {
+			project,
+		});
+	}
 });
 
 module.exports = router;

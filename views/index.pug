@@ -16,9 +16,9 @@ block content
       each project in projects
         .cell
           a(href=`/project/${project.id}`)
-          if project.image_urls[1]
-            img.thumbnail(src=`${project.image_urls[1]}`)
-          else
-            img.thumbnail(src=`${project.image_urls[0]}`)
-            h5= project.project_name
+            if project.image_urls[1]
+              img.thumbnail(src=`${project.image_urls[1]}`)
+            else
+              img.thumbnail(src=`${project.image_urls[0]}`)
+              h5= project.project_name
         
