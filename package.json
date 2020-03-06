@@ -13,7 +13,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "nodemon",
+    "start": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
