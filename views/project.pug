@@ -22,7 +22,8 @@ block content
             li= tech
 
         //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
-        a.button.expanded(href=`${project.live_link}` target="_blank") Live Demo
+        if project.live_link.length > 0
+          a.button.expanded(href=`${project.live_link}` target="_blank") Live Demo
         if project.github_link
           a.button.expanded(href=`${project.github_link}` target="_blank") GitHub Repo
     

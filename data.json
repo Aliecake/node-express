@@ -98,7 +98,7 @@
       "image_urls": ["/static/images/projects/7/library.gif"]
     },
     {
-      "id": "9",
+      "id": "8",
       "project_name": "React Gallery",
       "description": "Allows users to search the Flickr API and returns images",
       "technologies": ["React", "Node.js", "Pug"],
