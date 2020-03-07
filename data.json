@@ -87,6 +87,24 @@
       "live_link": "https://secure-savannah-48748.herokuapp.com/",
       "github_link": "https://github.com/Aliecake/YelpCamp",
       "image_urls": ["/static/images/projects/6/yelpcamp.gif"]
+    },
+    {
+      "id": "7",
+      "project_name": "Library",
+      "description": "CRUD app of library database",
+      "technologies": ["JavaScript", "Sequelize/SQL", "Node.js", "Pug"],
+      "live_link": "",
+      "github_link": "https://github.com/Aliecake/libraryManager_SQL",
+      "image_urls": ["/static/images/projects/7/library.gif"]
+    },
+    {
+      "id": "9",
+      "project_name": "React Gallery",
+      "description": "Allows users to search the Flickr API and returns images",
+      "technologies": ["React", "Node.js", "Pug"],
+      "live_link": "",
+      "github_link": "https://github.com/Aliecake/reactGalleryApp",
+      "image_urls": ["/static/images/projects/8/reactgallery.gif"]
     }
   ]
 }
