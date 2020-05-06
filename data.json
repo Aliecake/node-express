@@ -118,6 +118,15 @@
         "/static/images/projects/9/api_code.png",
         "/static/images/projects/9/api_code2.png"
       ]
+    },
+    {
+      "id": "10",
+      "project_name": "Original Portfolio",
+      "description": "Original portfolio",
+      "technologies": ["HTML", "CSS"],
+      "live_link": "https://aliecake.github.io/",
+      "github_link": "https://github.com/Aliecake/Aliecake.github.io",
+      "image_urls": ["/static/images/projects/10/old_portfolio_live.gif"]
     }
   ]
 }
