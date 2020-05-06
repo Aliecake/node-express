@@ -105,6 +105,19 @@
       "live_link": "",
       "github_link": "https://github.com/Aliecake/reactGalleryApp",
       "image_urls": ["/static/images/projects/8/reactgallery.gif"]
+    },
+    {
+      "id": "9",
+      "project_name": "Rest Api",
+      "description": "A user and course listing API with authorization and validation",
+      "technologies": ["Sequelize", "Node.js", "Express"],
+      "live_link": "",
+      "github_link": "https://github.com/Aliecake/restApi",
+      "image_urls": [
+        "/static/images/projects/9/api_live.gif",
+        "/static/images/projects/9/api_code.png",
+        "/static/images/projects/9/api_code2.png"
+      ]
     }
   ]
 }
