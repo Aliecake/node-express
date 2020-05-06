@@ -3,11 +3,15 @@ const { projects } = require('../data.json');
 
 const router = express.Router();
 
+//doesn't mutate original
+const reversedProjects = [...projects].reverse();
+
 //* * HOME ROUTE */
 
 router.get(`/`, (req, res) => {
+	
 	res.render(`index`, {
-		projects,
+		projects : reversedProjects
 	});
 });
 
@@ -20,7 +24,7 @@ router.get(`/about`, (req, res) => {
 //* * PROJECT ROUTE */
 
 router.get(`/project/:id`, (req, res) => {
-	const { id } = req.params;
+	const id = req.params.id;
 	const project = projects[id];
 
 	if (id >= projects.length) {
