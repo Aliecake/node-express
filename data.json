@@ -44,89 +44,100 @@
     },
     {
       "id": "3",
+      "project_name": "First Portfolio- Augmented UI",
+      "description": "Portfolio made with Augmented UI",
+      "technologies": ["CSS - Augmented UI", "HTML"],
+      "live_link": "https://aliecake.github.io/portfolio1/",
+      "github_link": "https://github.com/Aliecake/portfolio1",
+      "image_urls": [
+        "/static/images/projects/3/augmentedUI.png"
+      ]
+    },
+    {
+      "id": "4",
       "project_name": "Pokemon Phrase Hunter",
       "description": "Guess the phrase! All Pokemon related phrases. JavaScript OOP project",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://aliecake.github.io/OOP-Game-TT/",
       "github_link": "https://github.com/Aliecake/OOP-Game-TT",
       "image_urls": [
-        "/static/images/projects/3/phrasehunt.png",
-        "/static/images/projects/3/phrasehunt-550x350.png",
-        "/static/images/projects/3/phrasecode.png",
-        "/static/images/projects/3/phrasehunt1.png"
+        "/static/images/projects/4/phrasehunt.png",
+        "/static/images/projects/4/phrasehunt-550x350.png",
+        "/static/images/projects/4/phrasecode.png",
+        "/static/images/projects/4/phrasehunt1.png"
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "project_name": "API Requests",
       "description": "Searchable employee info pulled from random user API",
       "technologies": ["JavaScript", "JSON", "HTML", "CSS"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/Public-API-requests-TT",
       "image_urls": [
-        "/static/images/projects/4/apireq.png",
-        "/static/images/projects/4/apireq-550x350.png",
-        "/static/images/projects/4/apicode.png",
-        "/static/images/projects/4/apireq1.png"
+        "/static/images/projects/5/apireq.png",
+        "/static/images/projects/5/apireq-550x350.png",
+        "/static/images/projects/5/apicode.png",
+        "/static/images/projects/5/apireq1.png"
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "project_name": "USCIS Study Flash Cards",
       "description": "Study for the USCIS Exam",
       "technologies": ["JavaScript", "Vue", "CSS", "HTML"],
       "live_link": "https://master-uscis-exam.herokuapp.com/",
       "github_link": "",
-      "image_urls": ["/static/images/projects/5/uscis.gif"]
+      "image_urls": ["/static/images/projects/6/uscis.gif"]
     },
     {
-      "id": "6",
+      "id": "7",
       "project_name": "YelpCamp",
       "description": "CRUD app to search for camps",
       "technologies": ["JavaScript", "MongoDB", "Node.js", "Sass", "HTML"],
       "live_link": "https://secure-savannah-48748.herokuapp.com/",
       "github_link": "https://github.com/Aliecake/YelpCamp",
-      "image_urls": ["/static/images/projects/6/yelpcamp.gif"]
+      "image_urls": ["/static/images/projects/7/yelpcamp.gif"]
     },
     {
-      "id": "7",
+      "id": "8",
       "project_name": "Library",
       "description": "CRUD app of library database",
       "technologies": ["JavaScript", "Sequelize/SQL", "Node.js", "Pug"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/libraryManager_SQL",
-      "image_urls": ["/static/images/projects/7/library.gif"]
+      "image_urls": ["/static/images/projects/8/library.gif"]
     },
     {
-      "id": "8",
+      "id": "9",
       "project_name": "React Gallery",
       "description": "Allows users to search the Flickr API and returns images",
       "technologies": ["React", "Node.js", "Pug"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/reactGalleryApp",
-      "image_urls": ["/static/images/projects/8/reactgallery.gif"]
+      "image_urls": ["/static/images/projects/9/reactgallery.gif"]
     },
     {
-      "id": "9",
+      "id": "10",
       "project_name": "Rest Api",
       "description": "A user and course listing API with authorization and validation",
       "technologies": ["Sequelize", "Node.js", "Express"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/restApi",
       "image_urls": [
-        "/static/images/projects/9/api_live.gif",
-        "/static/images/projects/9/api_code.png",
-        "/static/images/projects/9/api_code2.png"
+        "/static/images/projects/10/api_live.gif",
+        "/static/images/projects/10/api_code.png",
+        "/static/images/projects/10/api_code2.png"
       ]
     },
     {
-      "id": "10",
+      "id": "11",
       "project_name": "Original Portfolio",
       "description": "Original portfolio",
       "technologies": ["HTML", "CSS"],
       "live_link": "https://aliecake.github.io/",
       "github_link": "https://github.com/Aliecake/Aliecake.github.io",
-      "image_urls": ["/static/images/projects/10/old_portfolio_live.gif"]
+      "image_urls": ["/static/images/projects/11/old_portfolio_live.gif"]
     }
   ]
 }
