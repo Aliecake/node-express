@@ -5,8 +5,8 @@
       "project_name": "Random Quote Generator",
       "description": "Provides essential random quotes from Violet Crawlery the Dowager Countess of Grantham",
       "technologies": ["JavaScript", "CSS"],
-      "live_link": "",
-      "github_link": "",
+      "live_link": "https://aliecake.github.io/randomQuote/",
+      "github_link": "https://github.com/Aliecake/randomQuote",
       "image_urls": [
         "/static/images/projects/0/randomqu.png",
         "/static/images/projects/0/randomqu-550x350.png",
@@ -19,7 +19,7 @@
       "project_name": "Student Listing",
       "description": "Student listing with search. Page numbers dynamically added.",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "http://www.laureneggers.com/paginationTT/",
+      "live_link": "https://aliecake.github.io/paginationTT/",
       "github_link": "https://github.com/Aliecake/paginationTT",
       "image_urls": [
         "/static/images/projects/1/pagination.png",
@@ -33,7 +33,7 @@
       "project_name": "JS Conference Form",
       "description": "An interactive form using jQuery with error handling. Works when JS is disabled",
       "technologies": ["jQuery", "HTML", "CSS"],
-      "live_link": "http://www.laureneggers.com/interactive-form-TT/",
+      "live_link": "https://aliecake.github.io/interactive-form-TT/",
       "github_link": "https://github.com/Aliecake/interactive-form-TT",
       "image_urls": [
         "/static/images/projects/2/interactiveform.png",
@@ -47,7 +47,7 @@
       "project_name": "Pokemon Phrase Hunter",
       "description": "Guess the phrase! All Pokemon related phrases. JavaScript OOP project",
       "technologies": ["JavaScript", "CSS", "HTML"],
-      "live_link": "http://www.laureneggers.com/OOP-Game-TT/",
+      "live_link": "https://aliecake.github.io/OOP-Game-TT/",
       "github_link": "https://github.com/Aliecake/OOP-Game-TT",
       "image_urls": [
         "/static/images/projects/3/phrasehunt.png",
