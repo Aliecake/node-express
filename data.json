@@ -50,7 +50,8 @@
       "live_link": "https://aliecake.github.io/portfolio1/",
       "github_link": "https://github.com/Aliecake/portfolio1",
       "image_urls": [
-        "/static/images/projects/3/augmentedUI.png"
+        "/static/images/projects/3/augmentedUI.png",
+        "/static/images/projects/3/augmentedUIcode.png"
       ]
     },
     {
@@ -138,6 +139,27 @@
       "live_link": "https://aliecake.github.io/",
       "github_link": "https://github.com/Aliecake/Aliecake.github.io",
       "image_urls": ["/static/images/projects/11/old_portfolio_live.gif"]
+    },
+    {
+      "id": "12",
+      "project_name": "Dad Joke Alexa skill",
+      "description": "Simple Alexa skill that calls the Icanhazdadjokes API and returns a good knee-slapper",
+      "technologies": ["JavaScript"],
+      "live_link": "",
+      "github_link": "https://github.com/Aliecake/dadJokeAlexa",
+      "image_urls": ["/static/images/projects/12/dadJoke.png"]
+    },
+    {
+      "id": "13",
+      "project_name": "Course Directory",
+      "description": "Full stack application that allows authenticated users to create, read, update, and delete courses",
+      "technologies": ["JavaScript", "Node.js", "React", "Sequelize", "Express"],
+      "live_link": "",
+      "github_link": "https://github.com/Aliecake/courseDirectory",
+      "image_urls": [
+        "/static/images/projects/13/fullStackCoursesCode.png",
+        "/static/images/projects/13/fullStackCourses.gif"
+      ]
     }
   ]
 }
