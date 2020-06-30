@@ -20,12 +20,11 @@ html(class="no-js" lang="en" dir="ltr")
 
             h5 Lauren Eggers
 
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light.description
               | const career = require('work');
 
-            //- Add about page route to the href below. 
             a(href='/about') Learn More →
+            br
             a(href='/') Back →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -33,12 +32,12 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
+          //- This is for the mobile screen sized version.
           span.title-bar-title Lauren Eggers
       block content
-        
 
-      
+
+
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')
