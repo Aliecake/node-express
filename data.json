@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "0",
-      "project_name": "Random Quote Generator",
+      "project_name": "Crawley Quotes",
       "description": "Provides essential random quotes from Violet Crawlery the Dowager Countess of Grantham",
       "technologies": ["JavaScript", "CSS"],
       "live_link": "https://aliecake.github.io/randomQuote/",
@@ -44,13 +44,14 @@
     },
     {
       "id": "3",
-      "project_name": "First Portfolio- Augmented UI",
+      "project_name": "Augmented UI",
       "description": "Portfolio made with Augmented UI",
       "technologies": ["CSS - Augmented UI", "HTML"],
       "live_link": "https://aliecake.github.io/portfolio1/",
       "github_link": "https://github.com/Aliecake/portfolio1",
       "image_urls": [
         "/static/images/projects/3/augmentedUI.png",
+        "/static/images/projects/3/augmentedUI-550x350.png",
         "/static/images/projects/3/augmentedUIcode.png"
       ]
     },
@@ -84,12 +85,15 @@
     },
     {
       "id": "6",
-      "project_name": "USCIS Study Flash Cards",
+      "project_name": "USCIS Flash Cards",
       "description": "Study for the USCIS Exam",
       "technologies": ["JavaScript", "Vue", "CSS", "HTML"],
       "live_link": "https://master-uscis-exam.herokuapp.com/",
       "github_link": "",
-      "image_urls": ["/static/images/projects/6/uscis.gif"]
+      "image_urls": [
+        "/static/images/projects/6/uscis.gif",
+        "/static/images/projects/6/uscis-550x350.png"
+      ]
     },
     {
       "id": "7",
@@ -98,7 +102,10 @@
       "technologies": ["JavaScript", "MongoDB", "Node.js", "Sass", "HTML"],
       "live_link": "https://secure-savannah-48748.herokuapp.com/",
       "github_link": "https://github.com/Aliecake/YelpCamp",
-      "image_urls": ["/static/images/projects/7/yelpcamp.gif"]
+      "image_urls": [
+        "/static/images/projects/7/yelpcamp.gif",
+        "/static/images/projects/7/yelpcamp-550x350.png"
+      ]
     },
     {
       "id": "8",
@@ -107,7 +114,10 @@
       "technologies": ["JavaScript", "Sequelize/SQL", "Node.js", "Pug"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/libraryManager_SQL",
-      "image_urls": ["/static/images/projects/8/library.gif"]
+      "image_urls": [
+        "/static/images/projects/8/library.gif",
+        "/static/images/projects/8/library-550x350.png"
+      ]
     },
     {
       "id": "9",
@@ -116,7 +126,10 @@
       "technologies": ["React", "Node.js", "Pug"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/reactGalleryApp",
-      "image_urls": ["/static/images/projects/9/reactgallery.gif"]
+      "image_urls": [
+        "/static/images/projects/9/reactgallery.gif",
+        "/static/images/projects/9/reactgallery-550x350.png"
+      ]
     },
     {
       "id": "10",
@@ -127,7 +140,7 @@
       "github_link": "https://github.com/Aliecake/restApi",
       "image_urls": [
         "/static/images/projects/10/api_live.gif",
-        "/static/images/projects/10/api_code.png",
+        "/static/images/projects/10/api-550x350.png",
         "/static/images/projects/10/api_code2.png"
       ]
     },
@@ -138,7 +151,10 @@
       "technologies": ["HTML", "CSS"],
       "live_link": "https://aliecake.github.io/",
       "github_link": "https://github.com/Aliecake/Aliecake.github.io",
-      "image_urls": ["/static/images/projects/11/old_portfolio_live.gif"]
+      "image_urls": [
+        "/static/images/projects/11/old_portfolio_live.gif",
+        "/static/images/projects/11/old_portfolio-550x350.png"
+      ]
     },
     {
       "id": "12",
@@ -147,7 +163,10 @@
       "technologies": ["JavaScript"],
       "live_link": "",
       "github_link": "https://github.com/Aliecake/dadJokeAlexa",
-      "image_urls": ["/static/images/projects/12/dadJoke.png"]
+      "image_urls": [
+        "/static/images/projects/12/dadJoke.png",
+        "/static/images/projects/12/dadJoke-550x350.png"
+      ]
     },
     {
       "id": "13",
