@@ -176,8 +176,9 @@
       "live_link": "",
       "github_link": "https://github.com/Aliecake/courseDirectory",
       "image_urls": [
-        "/static/images/projects/13/fullStackCoursesCode.png",
-        "/static/images/projects/13/fullStackCourses.gif"
+        "/static/images/projects/13/fullStackCourses.gif",
+        "/static/images/projects/13/fullStackCourses-550x350.png",
+        "/static/images/projects/13/fullStackCoursesCode.png"
       ]
     }
   ]
