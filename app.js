@@ -1,7 +1,10 @@
 const express = require('express');
+const sslRedirect = require('heroku-ssl-redirect');
 const path = require('path');
 
 const app = express();
+app.use(sslRedirect());
+
 const session = require('express-session');
 const flash = require('connect-flash');
 
@@ -9,6 +12,7 @@ const mainRoutes = require('./routes/index');
 const errorRoutes = require('./routes/error');
 
 const port = process.env.PORT || 3000;
+
 
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
