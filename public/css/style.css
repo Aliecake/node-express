@@ -15,7 +15,7 @@ h5 {
 }
 
 h6 {
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
   font-weight: 600;
@@ -144,6 +144,8 @@ a:hover {
 
 .portfolio-index .thumbnail {
   margin-bottom: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portfolio-index a {

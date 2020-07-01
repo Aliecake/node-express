@@ -30,7 +30,7 @@
     },
     {
       "id": "2",
-      "project_name": "JS Conference Form",
+      "project_name": "Conference Form",
       "description": "An interactive form using jQuery with error handling. Works when JS is disabled",
       "technologies": ["jQuery", "HTML", "CSS"],
       "live_link": "https://aliecake.github.io/interactive-form-TT/",
@@ -57,7 +57,7 @@
     },
     {
       "id": "4",
-      "project_name": "Pokemon Phrase Hunter",
+      "project_name": "Pokemon Hunter",
       "description": "Guess the phrase! All Pokemon related phrases. JavaScript OOP project",
       "technologies": ["JavaScript", "CSS", "HTML"],
       "live_link": "https://aliecake.github.io/OOP-Game-TT/",
@@ -85,7 +85,7 @@
     },
     {
       "id": "6",
-      "project_name": "USCIS Flash Cards",
+      "project_name": "USCIS Cards",
       "description": "Study for the USCIS Exam",
       "technologies": ["JavaScript", "Vue", "CSS", "HTML"],
       "live_link": "https://master-uscis-exam.herokuapp.com/",
@@ -146,7 +146,7 @@
     },
     {
       "id": "11",
-      "project_name": "Original Portfolio",
+      "project_name": "Portfolio v1",
       "description": "Original portfolio",
       "technologies": ["HTML", "CSS"],
       "live_link": "https://aliecake.github.io/",
@@ -158,7 +158,7 @@
     },
     {
       "id": "12",
-      "project_name": "Dad Joke Alexa skill",
+      "project_name": "Dad Jokes",
       "description": "Simple Alexa skill that calls the Icanhazdadjokes API and returns a good knee-slapper",
       "technologies": ["JavaScript"],
       "live_link": "",
