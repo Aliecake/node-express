@@ -18,7 +18,7 @@ block content
           a(href=`/project/${project.id}`)
             h5= project.project_name
             if project.image_urls[1]
-              img.thumbnail(src=`${project.image_urls[1]}`)
+              img.thumbnail(src=`${project.image_urls[1]}` alt=`${project.project_name}`)
             else
-              img.thumbnail(src=`${project.image_urls[0]}`)
+              img.thumbnail(src=`${project.image_urls[0]}` alt=`${project.project_name}`)
         
