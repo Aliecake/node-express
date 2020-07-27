@@ -21,17 +21,20 @@ block content
           each tech in project.technologies
             li= tech
 
-        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
+
         if project.live_link.length > 0
-          a.button.expanded(href=`${project.live_link}` target="_blank") Live Demo
+          a.button(href=`${project.live_link}` target="_blank")
+            i.fas.fa-external-link-alt.fa-3x
         if project.github_link
-          a.button.expanded(href=`${project.github_link}` target="_blank") GitHub Repo
+          a.button(href=`${project.github_link}` target="_blank")
+            i.fab.fa-github.fa-3x
     
-    //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    img.image(src=`${project.image_urls[0]}` alt=`${project.project_name}`)
-    if project.image_urls[2]
-      img.image(src=`${project.image_urls[2]}` alt=`${project.project_name}`)
-    if project.image_urls[3]
-      img.image(src=`${project.image_urls[3]}` alt=`${project.project_name}`)
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      .cell
+        img.thumbnail(src=`${project.image_urls[0]}` alt=`${project.project_name}`)
+        if project.image_urls[2]
+          img.thumbnail(src=`${project.image_urls[2]}` alt=`${project.project_name}`)
+        if project.image_urls[3]
+          img.thumbnail(src=`${project.image_urls[3]}` alt=`${project.project_name}`)
 
 

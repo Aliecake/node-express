@@ -36,6 +36,7 @@ p {
 
 .button {
   background-color: #333;
+  margin: 5px;
 }
 
 .button:hover {
@@ -69,7 +70,7 @@ a:hover {
 }
 .image {
   display: inline-block;
-  max-width: 100%;
+  max-width: 500px;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
   border-radius: 0;
