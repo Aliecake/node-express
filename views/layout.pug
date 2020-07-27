@@ -6,7 +6,8 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
-    link(rel='stylesheet', href='/static/css/foundation.css')
+    link(rel='stylesheet', href='/static/css/foundation.min.css')
+    link(rel='stylesheet', href='/static/css/brands.css')
     link(rel='stylesheet', href='/static/css/style.css')
     link(rel="manifest" href="/static/images/site.webmanifest")
     link(rel='favicon', sizes='64x64', href='/static/images/favicon.ico')
@@ -25,15 +26,20 @@ html(class="no-js" lang="en" dir="ltr")
             img.logo(src='/static/images/le.png')
             img.thumbnail(src=`/static/images/lauren.JPG`)
           .cell.auto
-
-            h5 Lauren Eggers
-
             p.text-light.description
-              | const career = require('work');
+              a(href='https://github.com/aliecake' target='_blank')
+                i.fab.fa-github.fa-3x
+            p.text-light.description
+              a(href='https://www.linkedin.com/in/laureneggers/' target='_blank')
+                i.fab.fa-linkedin.fa-3x
+            p.text-light.description
+              a(href='/static/fullStackLaurenEggers.pdf' target="_blank") Resume
+              
 
-            a(href='/about') Learn More →
-            br
-            a(href='/') Home →
+            p
+              a(href='/about') Learn More →
+            p
+              a(href='/') Home →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -49,4 +55,5 @@ html(class="no-js" lang="en" dir="ltr")
   script(src='/static/js/vendor/jquery.js')
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')
+  script(src='/static/js/vendor/all.min.js')
   script(src='/static/js/scripts.js')
