@@ -9,7 +9,7 @@ p {
 
 h5 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 2.5px;
+  letter-spacing: 2.0px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
 }
@@ -55,7 +55,8 @@ a:hover {
   border-color: #f5c6cb;
 }
 .description {
-  font-size: 8px;
+  font-size: 15px;
+  text-align: center;
 }
 .error {
   text-align: center;
@@ -75,6 +76,7 @@ a:hover {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
+
 .lost {
   max-width: 50%;
 }
