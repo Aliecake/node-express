@@ -1,3 +1,4 @@
+
 h1,
 h2,
 h3,
@@ -20,7 +21,6 @@ h6 {
   text-transform: uppercase;
   font-weight: 600;
 }
-
 p {
   font-size: 15px;
   color: #666;
@@ -41,6 +41,9 @@ p {
 
 .button:hover {
   background-color: #111;
+}
+.cell.fab {
+  font-size: 5em;
 }
 
 a {
@@ -84,6 +87,7 @@ a:hover {
 .name {
   text-transform: uppercase;
 }
+
 .portfolio-me {
   padding: 20px;
   background: #000000;
@@ -118,6 +122,8 @@ a:hover {
 .portfolio-breadcrumb {
   margin: 0;
   padding: 20px;
+  color: rgb(25, 180, 180);
+  background-color: #000000;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -125,6 +131,8 @@ a:hover {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
+  float: right;
+  color: rgb(25, 180, 180);
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
