@@ -170,7 +170,7 @@
       "project_name": "Course Directory",
       "description": "Full stack application that allows authenticated users to create, read, update, and delete courses",
       "technologies": ["JavaScript", "Node.js", "React", "Sequelize", "Express"],
-      "live_link": "",
+      "live_link": "https://angry-montalcini-3f81db.netlify.app/",
       "github_link": "https://github.com/Aliecake/courseDirectory",
       "image_urls": [
         "/static/images/projects/13/fullStackCourses.gif",
