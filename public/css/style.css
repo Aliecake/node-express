@@ -89,13 +89,12 @@ a:hover {
 }
 
 .portfolio-me {
-  padding: 20px;
   background: #000000;
   color: rgb(0, 255, 255);
   box-shadow: none !important;
 }
 .portfolio-me .logo {
-  max-width: 35%;
+  max-width: 45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -121,7 +120,7 @@ a:hover {
 
 .portfolio-breadcrumb {
   margin: 0;
-  padding: 20px;
+  padding: 30px;
   color: rgb(25, 180, 180);
   background-color: #000000;
   border-bottom: 1px solid #eaeaea;
@@ -131,6 +130,7 @@ a:hover {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
+  padding: 3px 20px 3px 20px;
   float: right;
   color: rgb(25, 180, 180);
   letter-spacing: 2.5px;
@@ -190,4 +190,12 @@ a:hover {
 
 .portfolio-bio {
   line-height: 25px;
+}
+
+.navBar {
+  float: right;
+  border-left: 1px solid rgb(105, 105, 105);
+  transform: skew(-20deg, 0deg); /* SKEW */
+  -ms-transform: skew(-20deg, 0deg);
+  -webkit-transform: skew(-20deg, 0deg);
 }

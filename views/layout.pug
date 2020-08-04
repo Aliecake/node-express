@@ -24,18 +24,13 @@ html(class="no-js" lang="en" dir="ltr")
           br
           .cell.shrink
             img.logo(src='/static/images/le.png')
-            img.thumbnail(src=`/static/images/lauren.JPG`)
           .cell.auto
             p.text-light.description
               a(href='https://github.com/aliecake' target='_blank')
-                i.fab.fa-github
+                i.fab.fa-github.fa-lg
             p.text-light.description
               a(href='https://www.linkedin.com/in/laureneggers/' target='_blank')
-                i.fab.fa-linkedin
-            p.text-light.description
-              a(href='/static/fullStackLaurenEggers.pdf' target="_blank") Resume
-            p.text-light.description
-              a(href='/about') About
+                i.fab.fa-linkedin.fa-lg
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
@@ -43,6 +38,16 @@ html(class="no-js" lang="en" dir="ltr")
 
           //- This is for the mobile screen sized version.
           span.title-bar-title Lauren Eggers
+
+      //- Nav bar
+      nav.grid-container.portfolio-breadcrumb
+        div.navBar
+          a(href='/') Home
+        div.navBar
+          a(href='/static/fullStackLaurenEggers.pdf') Resume
+        div.navBar
+          a(href='/about') About
+
       block content
 
 
