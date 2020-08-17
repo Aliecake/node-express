@@ -19,10 +19,10 @@ block content
           each tech in project.technologies
             li= tech
 
-
+        div Live / Github
         if project.live_link.length > 0
           a.button(href=`${project.live_link}` target="_blank")
-            i.fas.fa-external-link-alt.fa-3x
+            i.fas.fa-link.fa-3x
         if project.github_link
           a.button(href=`${project.github_link}` target="_blank")
             i.fab.fa-github.fa-3x
