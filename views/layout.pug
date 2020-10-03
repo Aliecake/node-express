@@ -18,34 +18,26 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name="theme-color" content="#ffffff")
 
   body
-    #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
+    #my-info
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
-          br
-          .cell.shrink
-            img.logo(src='/static/images/le.png')
-          .cell.auto
-            p.text-light.description
-              a(href='/')
-                i.fas.fa-home.fa-lg
-            p.text-light.description
-              a(href='https://github.com/aliecake' target='_blank')
-                i.fab.fa-github.fa-lg
-            p.text-light.description
-              a(href='https://www.linkedin.com/in/laureneggers/' target='_blank')
-                i.fab.fa-linkedin.fa-lg
-    .off-canvas-content(data-off-canvas-content='')
-      .title-bar.hide-for-large
-        .title-bar-left
-          button.menu-icon(type='button', data-toggle='my-info', aria-label='my-info')
-
-          //- This is for the mobile screen sized version.
-          span.title-bar-title Lauren Eggers
+        //-   br
+        //-   .cell.auto
+        //-     p.text-light.description
+        //-       a(href='/')
+        //-         i.fas.fa-home.fa-lg
+        //-     p.text-light.description
+        //-       a(href='https://github.com/aliecake' target='_blank')
+        //-         i.fab.fa-github.fa-lg
+        //-     p.text-light.description
+        //-       a(href='https://www.linkedin.com/in/laureneggers/' target='_blank')
+        //-         i.fab.fa-linkedin.fa-lg
 
       //- Nav bar
       nav.grid-container.portfolio-breadcrumb
         div.navBar
-          a(href='/') Home
+          a(href='/')
+            i.fas.fa-home.fa-lg
         div.navBar
           a(href='/static/fullStackLaurenEggers.pdf' target='_blank') Resume
         div.navBar
