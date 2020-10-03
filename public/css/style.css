@@ -75,6 +75,9 @@ a:hover {
   color: rgb(40, 79, 170);
   text-decoration: underline;
 }
+.grid-container {
+  max-width: 100%;
+}
 .image {
   display: inline-block;
   max-width: 500px;
@@ -142,8 +145,8 @@ a:hover {
 }
 
 .portfolio-intro {
-  margin: 0;
-  padding: 40px 50px 30px;
+  margin: 0 auto;
+  /* padding: 40px 50px 30px; */
 }
 
 .portfolio-intro p {
