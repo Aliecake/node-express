@@ -53,6 +53,10 @@ a {
 a:hover {
   color: #111;
 }
+
+.animated_logo {
+  text-align: center;
+}
 .danger {
   color: #721c24;
   background-color: #f8d7da;
@@ -107,7 +111,7 @@ a:hover {
 .portfolio-me a {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  color: rgb(25, 180, 180);
+  color: rgb(0, 255, 255);
   font-size: 13px;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
@@ -121,7 +125,6 @@ a:hover {
 .portfolio-breadcrumb {
   margin: 0;
   padding: 30px;
-  color: rgb(25, 180, 180);
   background-color: #000000;
   border-bottom: 1px solid #eaeaea;
 }
@@ -132,7 +135,7 @@ a:hover {
   font-size: 13px;
   padding: 3px 20px 3px 20px;
   float: right;
-  color: rgb(25, 180, 180);
+  color: rgb(0, 255, 255);
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
