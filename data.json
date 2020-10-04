@@ -3,7 +3,7 @@
     {
       "id": "0",
       "project_name": "Crawley Quotes",
-      "description": "Provides essential random quotes from Violet Crawlery the Dowager Countess of Grantham",
+      "description": "Provides essential random quotes from Violet Crawley the Dowager Countess of Grantham",
       "technologies": ["JavaScript", "CSS"],
       "live_link": "https://aliecake.github.io/randomQuote/",
       "github_link": "https://github.com/Aliecake/randomQuote",
