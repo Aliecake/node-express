@@ -177,6 +177,17 @@
         "/static/images/projects/13/fullStackCourses-550x350.jpg",
         "/static/images/projects/13/fullStackCoursesCode.jpg"
       ]
+    },
+    {
+      "id": "14",
+      "project_name": "UX Centered Careers",
+      "description": "Created a friendlier page when a job is no longer available. Users will see listings of open local and remote positions as well as an error message including the name of the expired role",
+      "technologies": ["Laravel", "Blade", "MySQL"],
+      "live_link": "https://uxcareers.uie.com/job/6",
+      "image_urls": [
+        "/static/images/projects/14/centeredCareersNotFound.jpg",
+        "/static/images/projects/14/centeredCareersNotFound-550x350.jpg"
+      ]
     }
   ]
 }
