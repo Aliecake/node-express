@@ -15,12 +15,6 @@ h5 {
   text-transform: uppercase;
 }
 
-h6 {
-  letter-spacing: 2px;
-  -webkit-text-transform: uppercase;
-  text-transform: uppercase;
-  font-weight: 600;
-}
 p {
   font-size: 15px;
   color: #666;
@@ -66,6 +60,7 @@ a:hover {
   font-size: 15px;
   text-align: center;
 }
+
 .error {
   text-align: center;
   margin: 0 auto;
@@ -77,6 +72,12 @@ a:hover {
 }
 .grid-container {
   max-width: 100%;
+}
+.heading-text {
+  letter-spacing: 2px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .image {
   display: inline-block;
@@ -90,6 +91,10 @@ a:hover {
 
 .lost {
   max-width: 50%;
+}
+
+.link{
+  border-bottom: #272626 0.125em dotted;
 }
 .name {
   text-transform: uppercase;
