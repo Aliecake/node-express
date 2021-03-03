@@ -9,7 +9,7 @@
     "express-session": "^1.17.0",
     "heroku-ssl-redirect": "0.0.4",
     "openssl": "^1.1.0",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
